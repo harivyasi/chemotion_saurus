@@ -80,6 +80,7 @@ module.exports = {
           'eln/ketcher',
           'eln/barcodes',
           'eln/inventory',
+          'eln/local_editable_attachment',
           'eln/analysis',
           'eln/problems',
         ],
