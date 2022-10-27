@@ -1,7 +1,7 @@
 import React from 'react';
 // import ReactMarkdown from "react-markdown";
 
-export function Gallery({links, titles}){
+export function Gallery({ links, titles, remarks }) {
   return (
     <div>
       <div className="row">
@@ -18,9 +18,10 @@ export function Gallery({links, titles}){
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />
+            <p>{remarks[idx]}</p>
           </div>
         ))}
       </div>
     </div>
-    )
+  )
 }

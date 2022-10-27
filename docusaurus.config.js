@@ -3,8 +3,7 @@ require("dotenv").config();
 module.exports = {
   title: "Chemotion",
   tagline:
-    "Electronic Laboratory Notebook (ELN) &\n" +
-    "Repository for Research Data\n",
+    "Electronic Laboratory Notebook (ELN) for Research Data\n",
   url: "https://chemotion.net",
   baseUrl: "/chemotionsaurus/",
   onBrokenLinks: "log",
@@ -26,26 +25,14 @@ module.exports = {
         {
           label: "Documentation",
           position: "left",
-          items: [
-            {
-              label: "ELN",
-              to: "docs/eln/intro",
-            },
-            {
-              label: "Repository",
-              to: "docs/repo/videos_repo",
-            },
-            {
-              label: "About this documentation",
-              to: "docs/docu/maintaining",
-            },
-          ],
+          to: "docs/eln/intro",
         },
         {
-          to: "blog/newsroom",
-          label: "Newsroom",
-          position: "left",
+          label: "Chemotion Repository ↗",
+          position: "right",
+          to: "https://www.chemotion-repository.net/",
         },
+
       ],
     },
 
@@ -72,36 +59,25 @@ module.exports = {
         {
           items: [
             {
-              label: "ELN GitHub",
-              to: "https://github.com/ComPlat/chemotion_ELN",
-            },
+              label: "Maintaining this Documentation",
+              to: "docs/docu/maintaining",
+            }
           ],
-        },
-
-        {
+        }, {
           items: [
             {
-              label: "Repository GitHub",
-              to: "https://github.com/ComPlat/chemotion_REPO",
-            },
+
+              label: "ELN Source Code",
+              to: "https://github.com/ComPlat/chemotion_ELN",
+            }
           ],
         },
-
         {
           items: [
             {
               label: "Contact Us",
               to: "about",
-            },
-          ],
-        },
-
-        {
-          items: [
-            {
-              label: "Admin",
-              to: "admin",
-            },
+            }
           ],
         },
       ],
