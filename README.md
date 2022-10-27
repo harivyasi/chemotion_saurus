@@ -1,8 +1,10 @@
 # Website
+
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.  
-See it live [https://www.chemotion.net/chemotionsaurus/](https://www.chemotion.net/chemotionsaurus/)
+See it live at [https://www.chemotion.net/chemotionsaurus/](https://www.chemotion.net/chemotionsaurus/)
 
 ## Installation
+
 Instead of ```npm``` you can also use ```yarn```.
 
 ```console
@@ -26,9 +28,11 @@ npm run build
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
 ## Clear Cache
+
 ```console
 npm run clear
 ```
 
 ## Code Status
-![](https://github.com/ComPlat/chemotion_saurus/actions/workflows/build.yml/badge.svg)
+
+![Badge for status of GitHub Actions](https://github.com/ComPlat/chemotion_saurus/actions/workflows/build.yml/badge.svg)
