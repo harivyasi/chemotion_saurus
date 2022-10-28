@@ -7,7 +7,7 @@ slug: contributing
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChartBar, faCheck, faPlus } from '@fortawesome/free-solid-svg-icons'
-import { Btn } from '@site/docs/btn.js'
+import { Btn } from '@site/docs/_jscripts/btn.js'
 
 :::info
 This page contains information on how to edit a page in the Docusaurus instance for the Chemotion ELN hosted at KIT.
@@ -123,7 +123,7 @@ For example, the following code snippet...
 ```
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faChartBar, faCheck } from '@fortawesome/free-solid-svg-icons'
-import { Btn } from '@site/docs/btn.js'
+import { Btn } from '@site/docs/_jscripts/btn.js'
 
 <Btn mixed={[faChartBar, " 1", faCheck]} color={"secondary"}/>
 ```
@@ -157,7 +157,7 @@ If you want to provide one or multiple file(s) to download directly form the man
 upload them to the files folder on [GitHub](https://github.com/ComPlat/chemotion_saurus/upload/master/static/files)
 and insert a Download Button with the (comma-separated) filepath(s) in `files` and the button text in `text` :
 ```
-import { DownloadBtn } from '@site/docs/download_files.js'
+import { DownloadBtn } from '@site/docs/_jscripts/download_files.js'
 
 <p><DownloadBtn files={['/chemotionsaurus/files/template_sample_import.xlsx, docker-compose.yml']}  text={"Download XLSX Template here "}/></p>
 ```

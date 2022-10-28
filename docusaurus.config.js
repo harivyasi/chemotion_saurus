@@ -25,7 +25,7 @@ module.exports = {
         {
           label: "Documentation",
           position: "left",
-          to: "docs/eln/intro",
+          to: "docs/welcome",
         },
         {
           label: "Chemotion Repository ↗",
@@ -36,15 +36,15 @@ module.exports = {
       ],
     },
 
-    algolia: {
-      // for development, put .env file containing ALGOLIA_SEARCH_API_KEY and INDEX_NAME in root of repo
-      apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
-      indexName: process.env.INDEX_NAME,
-      appId: process.env.ALGOLIA_APP_ID,
-      debug: true,
-      placeholder: "Search Documentation",
-      facetFilters: [],
-    },
+    // algolia: {
+    //   // for development, put .env file containing ALGOLIA_SEARCH_API_KEY and INDEX_NAME in root of repo
+    //   apiKey: process.env.ALGOLIA_SEARCH_API_KEY,
+    //   indexName: process.env.INDEX_NAME,
+    //   appId: process.env.ALGOLIA_APP_ID,
+    //   debug: true,
+    //   placeholder: "Search Documentation",
+    //   facetFilters: [],
+    // },
     docs: {
       sidebar: {
         hideable: true,
@@ -59,8 +59,8 @@ module.exports = {
         {
           items: [
             {
-              label: "Maintaining this Documentation",
-              to: "docs/docu/maintaining",
+              label: "About this Documentation",
+              to: "docs/documentation",
             }
           ],
         }, {
